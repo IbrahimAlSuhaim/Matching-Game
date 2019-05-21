@@ -8,7 +8,7 @@ document.querySelector('.restart').addEventListener('click',function(){
   window.location.reload();
 });
 
-for(card of cards){
+for(let card of cards){
   cardArr.push(card);
 }
 
