@@ -130,7 +130,7 @@ function doMatch(card1,card2){
 }
 
 
-function displayCounter(){
+function displayCounter(){ //method that displays the counter and decreases the star if exceeds some range of moves
   const moves=document.querySelector('.moves');
   moves.innerHTML=counter;
   if(counter==10){ //decrease one star
